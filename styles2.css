@@ -1,0 +1,458 @@
+header div a {
+    background-color: #00085e;
+    border-radius: 50%;
+}
+
+header div a ion-icon {
+    color: #fff;
+    display: initial;
+}
+
+
+.container {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.swiper-wrapper {
+    position: relative;
+    max-width: 390px;
+    max-height: 250px;
+    background-color: #fff;
+}
+
+.swiper-slide {
+    display: grid;
+    place-items: center;
+    background-image: linear-gradient(to top, #00053a, #37409c);
+    border-radius: 10px;
+    padding: 15px 30px;
+}
+
+.swiper-slide p {
+    font-size: .7em;
+    color: #dee0ff;
+    letter-spacing: 1.4px;
+    font-weight: 500;
+}
+
+.swiper-slide h1 {
+    font-size: 1.9em;
+    font-style: normal;
+    color: #fff;
+}
+
+.swiper-slide h2 {
+    font-size: 1.6em;
+    color: #fff;
+    font-weight: 400;
+}
+
+.swiper-slide h3 {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.swiper-slide span {
+    margin: 6px 0;
+}
+
+.swiper-slide span:nth-child(3) {
+    display: flex;
+}
+
+.swiper-slide span div {
+    margin-right: 14px;
+}
+
+
+
+.nav-btn {
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.1);
+    opacity: .2;
+}
+
+.nav-btn::after,
+.nav-btn::before {
+    color: #fff;
+
+}
+
+.swiper-pagination {
+    display: none;
+}
+
+
+
+
+.desktopview {
+    display: none;
+}
+
+.viewtoggle {
+    display: flex;
+    justify-content: center;
+}
+
+.desktop {
+    margin: 20px;
+    background-image: linear-gradient(to top, #00085e, #37409c);
+    border-radius: 10px;
+    padding: 15px 30px;
+    width: 390px;
+}
+
+.desktop span:nth-child(3) {
+    display: flex;
+}
+
+.desktop p {
+    font-size: .7em;
+    color: #dee0ff;
+    letter-spacing: 1.4px;
+    font-weight: 500;
+}
+
+.desktop h1 {
+    font-size: 1.9em;
+    font-style: normal;
+    color: #fff;
+}
+
+.desktop h2 {
+    font-size: 1.6em;
+    color: #fff;
+    font-weight: 400;
+}
+
+.desktop h3 {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.desktop span {
+    margin: 6px 0;
+}
+
+.desktop span:nth-child(3) {
+    display: flex;
+}
+
+.desktop span div {
+    margin-right: 5px;
+}
+
+
+
+
+
+
+.transfer .row {
+    display: flex;
+    justify-content: center;
+    border-top: #1b1b1b 1px solid;
+    padding: 15px 0;
+}
+
+.transfer .row a {
+    margin: 10px 15px;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    color: #1b1b1b;
+}
+
+.transfer .row a h3 {
+    margin-top: 10px;
+    font-size: .8em;
+    line-height: 1;
+}
+
+
+#icon {
+    width: 40px;
+    background-color: #00053a;
+    color: #fff;
+    padding: 12px;
+    border-radius: 7px;
+}
+
+
+
+
+
+.rabocard {
+    background-image: linear-gradient(to right, #000000, #111435, #000000);
+    border-radius: 15px;
+    padding: 25px;
+    max-width: 400px;
+    min-height: 220px;
+}
+
+.rabocard div {
+    display: flex;
+    align-items: center;
+}
+
+.rabocard div:nth-child(1) {
+    justify-content: space-between;
+}
+
+.rabocard div span:nth-child(1) {
+    background-color: rgb(218, 185, 0);
+    color: rgb(218, 185, 0);
+    width: 30px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.rabocard div span img {
+    width: 50px;
+}
+
+.rabocard h3 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+        'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: .3em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.rabocard .date {
+    align-items: center;
+    margin-left: 20px;
+}
+
+.rabocard p {
+    color: #fff;
+    font-size: .7em;
+    text-align: center;
+    line-height: 1;
+    padding: 10px;
+    font-weight: 100;
+}
+
+
+
+
+
+
+.rabotips div {
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    border-top: #747474 solid 1px;
+}
+.rabotips div span {
+    margin: 7px;
+}
+.rabotips div span h4 {
+    font-size: 1em;
+}
+.rabotips div span p {
+    font-size: .8em;
+}
+.rabotips div span #iconss {
+    font-size: 2em;
+}
+
+
+
+.customersupport {
+    position: fixed;
+    bottom: 60px;
+    right: 10px;
+}
+
+.customersupport #ikon {
+    color: #fff;
+    font-size: 30px;
+    padding: 18px;
+    border-radius: 50%;
+    background-color: #00053a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.transfers {
+    margin: 0;
+}
+.transfers h1 {
+    font-style: normal;
+    color: #fff;
+    padding: 10px;
+    background-color: #00085e;
+}
+.transfers .maindivs {
+    border-top: #1b1b1b solid 1px;
+    padding: 15px 0;
+    margin: 10px 0;
+    width: 100%;
+}
+.transfers div h3 {
+    margin: 0;
+    font-size: 1em;
+}
+.transfers div p {
+    margin: 0;
+    font-size: .9em;
+}
+
+
+
+
+.transfers form div h4 {
+    font-size: .7em;
+    margin-bottom: 10px;
+}
+.transfers form div {
+    margin: 25px 0;
+}
+.transfers form div span {
+    border-bottom: #1b1b1b 1px solid;
+    width: 100%;
+    display: flex;
+}
+
+.transfers form div span input {
+    border: none;
+    outline: none;
+    width: 500px;
+    padding: 4px;
+    font-size: 1em;
+}
+.transfers form div span #transfericons {
+    font-size: .8em;
+    margin-top: 8px;
+}
+.transfers button {
+    background-color: #00085e;
+    display: block;
+    margin: auto;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    padding: 15px 20%;
+    border-radius: 7px;
+    transition: .3s;
+}
+.transfers button:hover {
+    background-color: #00021a;
+}
+
+
+
+
+
+
+
+
+
+.success {
+    position: fixed;
+    background-color: #00b40f;
+    left: 1vw;
+    top: 40%;
+    z-index: 1;
+    padding: 3em;
+    border-radius: 10px;
+    align-items: center;
+    display: none;
+    box-shadow: black 2px 2px 20px;
+}
+.success div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.success p {
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+}
+.success a {
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 8px;
+    cursor: pointer;
+    text-decoration: none;
+}
+#successicon {
+    color: #fff;
+    padding: 20px;
+    font-size: 2em;
+}
+.success h2 {
+    color: #fff;
+    font-size: 2em;
+    line-height: 1.2;
+}
+
+
+
+
+
+@media only screen and (min-width:800px) {
+    .container {
+        display: none;
+    }
+
+    .desktopview {
+        display: initial;
+    }
+
+}
+
+@media only screen and (min-width:600px) {
+    .transfer .row {
+        border-top: none;
+    }
+    main {
+        margin: 0 20%;
+    }
+    .success {
+        left: 15vw;
+    }
+}
+@media only screen and (min-width:850px) {
+    .success {
+        left: 20vw;
+        top: 40%;
+    }
+}
+@media only screen and (min-width:1150px) {
+    .success {
+        left: 30vw;
+        top: 40%;
+    }
+}
+@media only screen and (max-width:370px) {
+    .success {
+        left: 1vw;
+        top: 40%;
+    }
+}
